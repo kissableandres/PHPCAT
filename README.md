@@ -38,5 +38,5 @@ La distribución de los directorios y archivos bases es así:
 	+index.php
 
 Para crear una aplicación nueva:
-1* Copie el index en la carpeta base public_html en el directorio de su aplicación.
-2* Cree en el diretorio phpcatsrv/app, un nuevo directorio donde se creará su aplicación php.
+1. Copie el index en la carpeta base public_html en el directorio de su aplicación.
+2. Cree en el diretorio phpcatsrv/app, un nuevo directorio donde se creará su aplicación php.
