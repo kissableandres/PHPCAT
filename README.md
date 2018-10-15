@@ -7,7 +7,7 @@ Framework de PHP 7.2
 * Mixto: Procedimental u Orientado a objetos.
 * Curva de aprendizaje Rápida. 
 
-PRIMEROS PASOS
-#--------------------------------------------------------------------------
-#	Crea tu Primera Aplicación
-#--------------------------------------------------------------------------
+#PRIMEROS PASOS
+
+#Crea tu Primera Aplicación
+1. Hola
