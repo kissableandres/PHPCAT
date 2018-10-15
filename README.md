@@ -1,4 +1,4 @@
-# Código Fuente de PHPCAT v0.0.1
+Código Fuente de PHPCAT v0.0.1
 
 Framework de PHP 7.2
 * MultiUso: Podrá funcionar en diversos modo según la aplicación que desees.
