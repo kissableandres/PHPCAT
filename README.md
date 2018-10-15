@@ -1,4 +1,4 @@
-Código Fuente de PHPCAT v0.0.1
+#Código Fuente de PHPCAT v0.0.1
 
 Framework de PHP 7.2
 * MultiUso: Podrá funcionar en diversos modo según la aplicación que desees.
@@ -7,7 +7,7 @@ Framework de PHP 7.2
 * Mixto: Procedimental u Orientado a objetos.
 * Curva de aprendizaje Rápida. 
 
-#PRIMEROS PASOS
+=PRIMEROS PASOS
 
 #Crea tu Primera Aplicación
 1. Hola
