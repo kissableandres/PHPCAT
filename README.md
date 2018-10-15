@@ -19,23 +19,23 @@ PHPCAT está inspirado en Laravel. No pretende ser una copia de éste pero tampo
 
 La distribución de los directorios y archivos bases es así:
 
-/install/ (directorio que contiene el instalador. Debe borrarse una vez que se instala el servicio)
-/phpcatsrv/ (directorio que debe quedar fuera del área pública)
-	/app/
-		/{myapp}/
-			/routes/
-			/views/
-	/kernel/
-		/errors/
-		/lang/
-			/es/
-			/en/
-	/vendor/
-		/mmunoz/
-	+autoload.php
-/public_html/ (directorio público)
-	+.htaccess
-	+index.php
+* /install/ (directorio que contiene el instalador. Debe borrarse una vez que se instala el servicio)
+* /phpcatsrv/ (directorio que debe quedar fuera del área pública)
+	* /app/
+		* /{myapp}/
+		* /routes/
+		* /views/
+	* /kernel/
+		* /errors/
+		* /lang/
+			* /es/
+			* /en/
+		* /vendor/
+			* /mmunoz/
+	* +autoload.php
+* /public_html/ (directorio público)
+	*	.htaccess
+	*	index.php
 
 Para crear una aplicación nueva:
 1. Copie el index en la carpeta base public_html en el directorio de su aplicación.
