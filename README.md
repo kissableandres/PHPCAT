@@ -6,41 +6,29 @@ Código Fuente de PHPCAT v0.0.1
 >
 > Formato: .md
 
-Framework de PHP 7.2
-* MultiUso: Podrá funcionar en diversos modo según la aplicación que desees.
-* Open Source: Colabora y usalo como quieras.
-* GUI Support: Permite que administres todo el servicio desde una interfaz gráfica.
-* Mixto: Procedimental u Orientado a objetos.
-* Curva de aprendizaje Rápida.
+Micro Framework-CMS de PHP 7.2
 
-Directorios
+* Multi Categorias de CMS: Podrá funcionar como web personalizada(framework) o modo CMS.
+* GUI Support: Permitirá que administres todo el servicio desde una interfaz gráfica (Opcional).
+* Open Source: Colabora y usalo en tus proyectos express.
+* Código Mixto: Procedimental u Orientado a objetos.
+* Curva de aprendizaje: Rápida.
+
+Instalacion
 ======
-PHPCAT está inspirado en Laravel. No pretende ser una copia de éste pero tampoco es necesario inventar la rueda.
-
-La distribución de los directorios y archivos bases es así:
-
-* /install/ (directorio que contiene el instalador. Debe borrarse una vez que se instala el servicio)
-* /phpcatsrv/ (directorio que debe quedar fuera del área pública)
-	* /app/
-		* /{myapp}/
-		* /routes/
-		* /views/
-	* /kernel/
-		* /errors/
-		* /lang/
-			* /es/
-			* /en/
-		* /vendor/
-			* /mmunoz/
-	* +autoload.php
-* /public_html/ (directorio público)
-	*	.htaccess
-	*	index.php
-
 Para crear una aplicación nueva:
 1. Copie el index en la carpeta base public_html en el directorio de su aplicación.
-2. Cree en el diretorio phpcatsrv/app, un nuevo directorio donde se creará su aplicación php.
+2. Configure reemplazando /myapp por el nombre de su app
+const APPDIR = '/myapp';
+require('/home/{myuserdir}/phpcatsrv/apps' . APPDIR . '/config.php');
+require('/home/{myuserdir}/phpcatsrv/autoload.php');
 
-Novedades de La Version
+2. Cree en el directorio phpcatsrv/app, un nuevo directorio donde se creará su aplicación php.
+3. Copie los archivos del directorio myapp en su directorio de aplicación.
+4. Configure en config.php {myuserdir} y {mydomain} por el directorio y su dominio sin http respectivamente
+const BACK_PHPDIR = '/home/{myuserdir}/phpcatsrv';
+const FRONT_DOMAIN = '/{mydomain}' . APPDIR;
+
+Novedades de la Versión Inicial 0.0.1
 ======
 Para obtener las novedades de la versión dirígase al archivo de la versi+on correspondiente.
