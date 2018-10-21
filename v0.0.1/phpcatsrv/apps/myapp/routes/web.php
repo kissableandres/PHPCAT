@@ -6,9 +6,10 @@
 #--------------------------------------------------------------------------
 #	Mandatary! Put in every page for secure reasons.
 #--------------------------------------------------------------------------
-define('phpCat',1);
-#··········································································
-//	Configure correctamente las rutas {full_base_directory} y {appname}
-const APPDIR = '/myapp';
-require('/home/{myuserdir}/phpcatsrv/apps' . APPDIR . '/config.php');
-require('/home/{myuserdir}/phpcatsrv/autoload.php');
+if (!defined('phpCat'))
+	error_log('Esto es un intento de hackeo').die('ERROR FBX1450');
+#--------------------------------------------------------------------------
+
+Route('Get','/',function(){
+	return View('welcome');
+});
